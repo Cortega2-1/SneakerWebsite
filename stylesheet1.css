@@ -1,0 +1,80 @@
+a{
+color:orange;
+}
+.box {
+    overflow: auto;
+    margin: 75px;
+    text-align: center;
+    width: 1200px; /* Width of the box */
+    height: 500px; /* Height of the box */
+    padding: 10px; /* Space inside the box */
+    border: 10px solid red; /* Border around the box */
+    font-family: "Impact";
+    font-size: 30px; /* Font size of the text */
+    color: white;
+    display: inline-block;
+}
+.box2 {
+      overflow: auto;
+      margin: 75px;
+      text-align: center;
+      width: 1200px; /* Width of the box */
+      height: 1100px; /* Height of the box */
+      padding: 10px; /* Space inside the box */
+      border: 10px solid red; /* Border around the box */
+      font-family: "Impact";
+      font-size: 30px; /* Font size of the text */
+     color: white;
+      display: inline-block;
+  }
+.box1 {
+    overflow: auto;
+    margin: 75px; /* Adjust margin as needed */
+    text-align: center;
+    width: 400px; /* Adjust the width of the box */
+    height: 1100px; /* Allow the height to adjust based on content */
+    padding: 10px;
+    border: 10px solid red; /* Adjust border size and color as needed */
+    font-family: "Impact";
+    font-size: 30px; /* Adjust font size */
+    color: white;
+    display: inline-block;
+}
+
+header {
+  height: 550px; 
+  background-size: cover;
+  background-position: center;
+}
+img{
+width:100px;
+height:100px;
+}
+header img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
+body{
+   background-color:black;
+  }
+   h1 {
+text-align: center;
+  font-size: 60px;
+ font-family: "Snell Roundhand";
+     color: red;  
+} 
+p{
+color:white;
+text-align: center;
+font-family: "Impact";
+}
+ul {
+color:white;
+margin-left: auto;
+    margin-right: auto;
+    display: block;
+ list-style-image: url('bred.jpeg');
+   width: fit-content;
+}
+
